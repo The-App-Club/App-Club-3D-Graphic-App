@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "dependencies": {
+    "framer-motion": "^6.3.5",
+    "popmotion": "^11.0.3",
+    "three": "^0.141.0"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}

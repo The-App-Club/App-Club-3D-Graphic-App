@@ -1,0 +1,11 @@
+- Reference
+  - [perlin-noise-algorithm](https://rtouti.github.io/graphics/perlin-noise-algorithm)
+  - [simplex-noise](https://github.com/jwagner/simplex-noise.js)
+  - [react-three-fiber](https://github.com/pmndrs/react-three-fiber/issues/266)
+  - [is-it-possible-to-dynamically-add-vertices-to-a-geometry](https://discourse.threejs.org/t/is-it-possible-to-dynamically-add-vertices-to-a-geometry/2123)
+  - [Updating plane vertices in animation loop](https://discourse.threejs.org/t/updating-plane-vertices-in-animation-loop/21083)
+  - [dynamically-adding-vertices-to-a-line-in-three-js](https://stackoverflow.com/questions/14840026/dynamically-adding-vertices-to-a-line-in-three-js)
+  - [linesegments](https://codesandbox.io/s/linesegments-yymvh)
+  - [react-three-fiber-to-draw-custom-vertices](https://stackoverflow.com/a/69904843/15972569)
+  - [demo](https://codepen.io/ometecuthli/pen/wvzBzze)
+  - [threejs_experiment_2](https://github.com/tochman/threejs_experiment_2/blob/main/src/components/Curve.jsx)

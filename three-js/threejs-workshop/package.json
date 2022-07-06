@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "serve": "browser-sync start -c ./config/bs-config.js",
+    "watch": "webpack --mode development --config ./config/webpack.config.js -w",
+    "build": "webpack --mode production --config ./config/webpack.config.js",
+    "start": "concurrently \"npm run serve\" \"npm run watch\"",
+    "format": "prettier --write \"{,!(node_modules|dist|build)/**/}*.*\"",
+    "lint": "stylelint --fix \"{,!(node_modules|dist|build)/**/}*.css*\" \"{,!(node_modules|dist|build)/**/}*.scss*\""
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "browser-sync": "^2.26.3",
+    "concurrently": "^4.0.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-glsl-loader": "^1.0.1",
+    "prettier": "^2.4.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^9.0.2",
+    "stylelint-config-recommended-scss": "^4.3.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "dependencies": {
+    "three": "^0.98.0"
+  }
+}

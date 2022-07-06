@@ -1,0 +1,27 @@
+@use '../global/index.scss' as g;
+
+* {
+  user-select: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6em;
+  width: 100%;
+}
+
+.sp-only {
+  display: none;
+  @include g.mq(mobile) {
+    display: block;
+  }
+}
+
+@include g.mq(mobile) {
+  .pc-only {
+    display: none;
+  }
+}

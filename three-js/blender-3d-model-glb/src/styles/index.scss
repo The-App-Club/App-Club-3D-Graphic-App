@@ -1,0 +1,8 @@
+// common
+@use './reset/index.scss' as reset;
+@use './root/index.scss' as root;
+@use './base/index.scss' as base;
+
+// main
+@use './loading/index.scss' as loading;
+@use './mv/index.scss' as mv;

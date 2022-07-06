@@ -1,0 +1,49 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #000;
+  height: 100%;
+  margin: 0;
+}
+
+#canvas-container {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#canvas-container canvas {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+#scroll-container {
+  height: 200%;
+  position: relative;
+  width: 100%;
+}
+
+#scroll-container_title {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 7em;
+  font-style: italic;
+  font-weight: bold;
+  left: 50%;
+  letter-spacing: 0.05em;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
